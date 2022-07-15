@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 600px;
+list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+li::after{
+content: "";
+display: block;
+width: 30px;
+height: 3px;
+background-color: blue;
+margin-top: 10px;
+}
+
+li::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: blue;
+    margin-top: 10px;
+    }
